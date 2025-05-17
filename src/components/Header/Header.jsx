@@ -1,14 +1,17 @@
 import React from "react";
 import Logo from "../Logo";
+import { Link,NavLink } from "react-router";
 
 function Header() {
   return (
     <header>
       <div className="flex justify-center">
         <div className="w-[1000px] bg-[#FE7743] h-[45px] flex items-center justify-between mt-1 rounded-[5px] mr-[10px] ml-[10px] drop-shadow-gray-500/50">
+          <Link to=" ">
           <div className="mx-10">
             <Logo />
           </div>
+          </Link>
           <div className="flex justify-between">
             <div className="flex justify-center border-b-black bg-[#EFEEEA] rounded-[3px] pr-0.5 w-[215px]">
               <svg
@@ -23,9 +26,13 @@ function Header() {
               </svg>
               <input type="text" className="border-black p-0.5 w-[180px]" />
             </div>
+            <NavLink to='/About'>
             <div className="mx-5 cursor-pointer">About</div>
+            </NavLink>
 
-            <div className="mx-5 cursor-pointer">Contact</div>
+            <NavLink to="/Contact">
+               <div className="mx-5 cursor-pointer">Contact</div>
+            </NavLink>
             <div className="mx-5 cursor-pointer">Home</div>
           </div>
         </div>
