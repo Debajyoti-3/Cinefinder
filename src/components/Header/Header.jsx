@@ -33,7 +33,9 @@ function Header() {
             <NavLink to="/Contact">
                <div className="mx-5 cursor-pointer">Contact</div>
             </NavLink>
-            <div className="mx-5 cursor-pointer">Home</div>
+            <NavLink to=" ">
+              <div className="mx-5 cursor-pointer">Home</div>
+            </NavLink>
           </div>
         </div>
       </div>
