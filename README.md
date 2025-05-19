@@ -1,3 +1,3 @@
 # It's Your `Cinefinder`
-- use it share it grow it
-#this commit is important
+-  we love `Cinema`, so we build this
+- use it -> share it ->  grow it
