@@ -5,7 +5,7 @@ import Home from './components/Home/Home'
 function App() {
   
   return (
-   <div>
+   <div>    // This are not functional, refer Maain.jsx code
     <Header/>
     <Home/>
     <Footer/>

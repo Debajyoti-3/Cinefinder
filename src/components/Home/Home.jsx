@@ -1,4 +1,5 @@
 import React from "react";
+import MovieSearch from "../API/MovieSearch";
 
 
 function Home() {
