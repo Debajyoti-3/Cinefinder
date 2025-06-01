@@ -14,7 +14,7 @@ function Home() {
       </div>
       <div className="flex justify-center">
         <div className="flex justify-center items-center w-[250px] h-[400px] border-black rounded-2xl bg-[#FE7743] mr-[45px]">
-          movie 1
+          <img src="https://unsplash.com/photos/the-walking-dead-dvd-movie-wMkaMXTJjlQ" alt="movie 1" className="w-[150px] h-[300px]" />
         </div>
         <div className="flex justify-center items-center w-[250px] h-[400px] border-black rounded-2xl bg-[#FE7743] mr-[45px]">
           movie 2

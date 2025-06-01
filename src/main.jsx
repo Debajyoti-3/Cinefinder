@@ -7,6 +7,7 @@ import About from '../src/components/About/About.jsx'
 import Contact from '../src/components/Contact/Contact.jsx'
 import Results from "./components/Results/Results.jsx";
 import { createBrowserRouter, RouterProvider } from "react-router";
+import { SearchProvider } from "./context/SearchContext";
 
 const router = createBrowserRouter([
   {
@@ -36,6 +37,8 @@ const router = createBrowserRouter([
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <RouterProvider router={router}/>
+    <SearchProvider>
+      <RouterProvider router={router}/>
+    </SearchProvider>
   </StrictMode>
 );
