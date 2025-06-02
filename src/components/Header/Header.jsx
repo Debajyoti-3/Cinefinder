@@ -10,7 +10,7 @@ function Header() {
     <header>
       <div className="flex justify-center">
         <div className="w-[1000px] bg-[#FE7743] h-[45px] flex items-center justify-between mt-1 rounded-[5px] mr-[10px] ml-[10px] drop-shadow-gray-500/50">
-          <Link to=" ">
+          <Link to="/">
             <div className="mx-10">
               <Logo />
             </div>
@@ -43,7 +43,7 @@ function Header() {
             <NavLink to="/Contact">
               <div className="mx-5 cursor-pointer">Contact</div>
             </NavLink>
-            <NavLink to=" ">
+            <NavLink to="/">
               <div className="mx-5 cursor-pointer">Home</div>
             </NavLink>
           </div>
